@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name_",
+						"type": "string"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Store & retrieve contacts of friends and family",
+			"kind": "dev",
+			"methods": {
+				"send(uint256,string)": {
+					"details": "Save new contact",
+					"params": {
+						"name_": "name of contact to store",
+						"number_": "number of contact to store"
+					}
+				}
+			},
+			"title": "Contact",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contact.sol": "Contact"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contact.sol": {
+			"keccak256": "0x2dfa4fa6b07db5a8a97143ac7a92c493953adce392c60d0718a13d0354ee627c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1f4292957c692d5d945a0c1f1718d7cd50459ff9da78f29cb0f519b6984a6e08",
+				"dweb:/ipfs/QmXynaUTLpGM2UbL4yKGciixJamHtCqM8gzqKA8rvyYUSG"
+			]
+		}
+	},
+	"version": 1
+}

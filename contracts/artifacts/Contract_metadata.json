@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "save",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Store & retrieve contacts of friends and family",
+			"kind": "dev",
+			"methods": {
+				"save(uint256,string)": {
+					"details": "Save new contact",
+					"params": {
+						"_name": "name of contact to store",
+						"_number": "number of contact to store"
+					}
+				}
+			},
+			"title": "Contact",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contact.sol": "Contract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contact.sol": {
+			"keccak256": "0x2a1a4492c5867075ff2e691773bf28acc3ab76647ab6f7c7b57a6010441af03a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f6eebe5ae4d91a5b862bf55f14e11c862ed18a74f5c695746888c7aa40346ce3",
+				"dweb:/ipfs/QmaD2vyV7cjYG5tYRm8NiZV3Wa5diqLWWCMxAJRnW3ofk7"
+			]
+		}
+	},
+	"version": 1
+}

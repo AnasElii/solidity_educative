@@ -1,0 +1,1 @@
+# solidity educative course
